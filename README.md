@@ -5,9 +5,12 @@ Testing Astro builds with a node in a docker container.
 ## Creation History
 
 ```bash
+npm install -D @tailwindcss/typography
+npx astro add mdx
+npx astro add react
 npx astro add tailwind
-npm create astro@latest
 cd astro-node-ex/
+npm create astro@latest
 ```
 
 ## Docker Notes
